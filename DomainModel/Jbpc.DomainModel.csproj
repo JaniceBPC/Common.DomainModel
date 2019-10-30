@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Authors>Janice Kierstead</Authors>
+    <Company>Janice KiersteadJanice Kierstead</Company>
+    <RepositoryUrl>https://github.com/JaniceBPC/Common.DomainModel</RepositoryUrl>
+    <RepositoryType>.git</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Jbpc.Repository" Version="1.0.0" />
+    <PackageReference Include="JbpcCommon" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
