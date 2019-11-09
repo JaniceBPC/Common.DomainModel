@@ -5,9 +5,9 @@ namespace Jbpc.Common.DomainModel.InternedStrings
     public class Builder
     {
         private DataModel dataModel;
-        public IDatabaseContext DatabaseContext { get; set; }
+        public DatabaseContext DatabaseContext { get; set; }
 
-        public Builder(IDatabaseContext databaseContext)
+        public Builder(DatabaseContext databaseContext)
         {
             this.DatabaseContext = databaseContext;
         }

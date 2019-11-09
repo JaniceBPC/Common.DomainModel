@@ -1,16 +1,17 @@
-﻿using Jbpc.Common.Import;
+﻿using System.ComponentModel.DataAnnotations;
+using Jbpc.Common.Import;
 using Jbpc.Common.Import.ValidationExceptions;
 
 namespace Jbpc.Common.DomainModel.InternedStrings
 {
     class Validate : IValidate<ExtractedAttributes>
     {
-        private ValidationResult validationResult;
-        public ValidationResult ValidateAttributes(ExtractedAttributes extractedAttributes)
+        private ValidationResultCollection validationResult;
+        public ValidationResultCollection ValidateAttributes(ExtractedAttributes extractedAttributes)
         {
             var attributes = (ExtractedAttributes) extractedAttributes;
 
-            validationResult = new ValidationResult();
+            validationResult = new ValidationResultCollection();
 
             if (attributes.Text == "")
             {

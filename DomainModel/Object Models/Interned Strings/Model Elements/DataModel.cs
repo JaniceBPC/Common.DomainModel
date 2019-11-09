@@ -7,9 +7,9 @@ namespace Jbpc.Common.DomainModel.InternedStrings
 {
     public class DataModel : ImportDataModel<Import.ModelRow>
     {
-        public IDatabaseContext DatabaseContext { get; }
+        public DatabaseContext DatabaseContext { get; }
 
-        public DataModel(IDatabaseContext databaseContext)
+        public DataModel(DatabaseContext databaseContext)
         {
             this.DatabaseContext = databaseContext;
         }
