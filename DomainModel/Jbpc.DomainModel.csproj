@@ -7,6 +7,8 @@
     <RepositoryUrl>https://github.com/JaniceBPC/Common.DomainModel</RepositoryUrl>
     <RepositoryType>.git</RepositoryType>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyName>Jbpc.Common.DomainModel</AssemblyName>
+    <RootNamespace>Jbpc.DomainModel</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -28,8 +30,8 @@
     <Reference Include="Jbpc.Common">
       <HintPath>C:\Program Files\Jbpc\Debug\netcoreapp3.0\Jbpc.Common.dll</HintPath>
     </Reference>
-    <Reference Include="Jbpc.Repository">
-      <HintPath>C:\Program Files\Jbpc\Debug\netcoreapp3.0\Jbpc.Repository.dll</HintPath>
+    <Reference Include="Jbpc.Common.Repository">
+      <HintPath>..\..\..\..\Program Files\Jbpc\Debug\netcoreapp3.0\Jbpc.Common.Repository.dll</HintPath>
     </Reference>
   </ItemGroup>
 
