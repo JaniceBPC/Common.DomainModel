@@ -7,16 +7,14 @@
     <RepositoryUrl>https://github.com/JaniceBPC/Common.DomainModel</RepositoryUrl>
     <RepositoryType>.git</RepositoryType>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <AssemblyName>Jbpc.Common.DomainModel</AssemblyName>
-    <RootNamespace>Jbpc.DomainModel</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>C:\Program Files\Jbpc\Debug\</OutputPath>
+    <OutputPath>C:\Program Files\Jbpc\Release\netcoreapp3.0\netcoreapp3.0\</OutputPath>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <OutputPath>C:\Program Files\Jbpc\Release\</OutputPath>
+    <OutputPath>C:\Program Files\Jbpc\Release\netcoreapp3.0\netcoreapp3.0\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
@@ -30,8 +28,11 @@
     <Reference Include="Jbpc.Common">
       <HintPath>C:\Program Files\Jbpc\Debug\netcoreapp3.0\Jbpc.Common.dll</HintPath>
     </Reference>
-    <Reference Include="Jbpc.Common.Repository">
-      <HintPath>..\..\..\..\Program Files\Jbpc\Debug\netcoreapp3.0\Jbpc.Common.Repository.dll</HintPath>
+    <Reference Include="Jbpc.Common.Excel">
+      <HintPath>C:\Program Files\Jbpc\Debug\netstandard\Jbpc.Common.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Jbpc.Repository">
+      <HintPath>C:\Program Files\Jbpc\Debug\netcoreapp3.0\Jbpc.Repository.dll</HintPath>
     </Reference>
   </ItemGroup>
 
