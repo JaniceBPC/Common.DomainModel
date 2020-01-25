@@ -10,11 +10,11 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>C:\Program Files\Jbpc\Release\netcoreapp3.0\netcoreapp3.0\</OutputPath>
+    <OutputPath>C:\Program Files\Jbpc\Debug\</OutputPath>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <OutputPath>C:\Program Files\Jbpc\Release\netcoreapp3.0\netcoreapp3.0\</OutputPath>
+    <OutputPath>C:\Program Files\Jbpc\Release\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
@@ -31,8 +31,8 @@
     <Reference Include="Jbpc.Common.Excel">
       <HintPath>C:\Program Files\Jbpc\Debug\netstandard\Jbpc.Common.Excel.dll</HintPath>
     </Reference>
-    <Reference Include="Jbpc.Repository">
-      <HintPath>C:\Program Files\Jbpc\Debug\netcoreapp3.0\Jbpc.Repository.dll</HintPath>
+    <Reference Include="Jbpc.Common.Repository">
+      <HintPath>C:\Program Files\Jbpc\Debug\netcoreapp3.0\Jbpc.Common.Repository.dll</HintPath>
     </Reference>
   </ItemGroup>
 
